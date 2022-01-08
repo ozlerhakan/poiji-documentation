@@ -2,6 +2,8 @@
 sidebar_position: 10
 ---
 
+# Debug Cells
+
 We can observe each cell format of a given excel file. Assume that we have an excel file like below:
 
 

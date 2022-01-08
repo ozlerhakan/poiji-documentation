@@ -2,6 +2,8 @@
 sidebar_position: 13
 ---
 
+# Display Cells
+
 Consider we have a xls or xlsx excel file like below:
 
 

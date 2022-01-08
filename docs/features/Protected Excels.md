@@ -2,6 +2,8 @@
 sidebar_position: 4
 ---
 
+# Protected Excel Files
+
 Consider that your excel file is protected with a password, you can define the password via `PoijiOptionsBuilder`  to read rows:
 
 ```java

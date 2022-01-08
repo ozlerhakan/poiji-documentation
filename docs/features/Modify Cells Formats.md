@@ -2,6 +2,8 @@
 sidebar_position: 11
 ---
 
+# Modify Cell Format
+
 We can change the default format of a cell using `PoijiNumberFormat`. Recall `Debug Cells Formats`, we are unable to see the correct cell format, what's more the excel file uses another format which we do not want to.
 
 

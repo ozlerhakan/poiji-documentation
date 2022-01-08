@@ -2,6 +2,8 @@
 sidebar_position: 5
 ---
 
+# Super Class Inheritance 
+
 Your object model may be derived from a super class:
 
 ```java

@@ -2,6 +2,8 @@
 sidebar_position: 6
 ---
 
+# Support Consumer 
+
 Poiji supports Consumer Interface. As [@fmarazita](https://github.com/ozlerhakan/poiji/pull/39#issuecomment-409521808) explained the usage, there are several benefits of having a Consumer:
 
 1. Huge excel file ( without you have all in memory)

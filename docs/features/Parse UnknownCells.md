@@ -2,6 +2,8 @@
 sidebar_position: 8
 ---
 
+# Parse UnkownCells
+
 You can annotate a `Map<String, String>` with `@ExcelUnknownCells` to parse all entries,
 which are not mapped in any other way (for example by index or by name).
 

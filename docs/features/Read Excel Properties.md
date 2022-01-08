@@ -2,6 +2,8 @@
 sidebar_position: 12
 ---
 
+# Read Properties
+
 It is possible to read excel properties from xlsx files. To achieve that, create a class with fields annotated with `@ExcelProperty`.
 
 Example:

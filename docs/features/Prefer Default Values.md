@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+# Prefer Default Values
+
 If you want a date field to return null rather than a default date, use `PoijiOptionsBuilder` with the preferNullOverDefault method as follows:
 
 ```java

@@ -2,6 +2,8 @@
 sidebar_position: 7
 ---
 
+# Custom Casting
+
 You can create your own casting implementation without relying on the default Poiji casting configuration using the `Casting` interface.
 
 ```java

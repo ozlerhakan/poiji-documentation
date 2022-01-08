@@ -2,6 +2,8 @@
 sidebar_position: 14
 ---
 
+# Custom Formating
+
 You can create your own formatting implementation without relying on the default Poiji formatting configuration using the `Formatting` interface.
 
 ```java
