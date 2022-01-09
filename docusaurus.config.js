@@ -7,15 +7,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Welcome to Poiji Documentation',
-  tagline: 'A tiny library converting excel rows to a list of Java objects based on Apache POI',
+  tagline: 'A powerful library converting excel rows to a list of Java objects based on Apache POI',
   url: 'https://github.com/ozlerhakan/poiji',
+  favicon: 'https://github.githubassets.com/favicons/favicon-dark.png',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'com.github.ozlerhakan', // Usually your GitHub org/user name.
-  projectName: 'poiji', // Usually your repo name.
-
+  organizationName: 'com.github.ozlerhakan',
+  projectName: 'poiji', 
+  staticDirectories: ['public', 'static'], 
   presets: [
     [
       'classic',
@@ -23,14 +23,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/ozlerhakan/poiji-documentation/docs',
+          editUrl: 'https://github.com/ozlerhakan/poiji-documentation',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ozlerhakan/poiji-documentation',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,6 +65,14 @@ const config = {
               {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/search?q=poiji',
+              },
+              {
+                label: 'GitHub Discussions',
+                href: 'https://github.com/ozlerhakan/poiji/discussions',
+              },
+              {
+                label: 'GitHub Issue Tracker',
+                href: 'https://github.com/ozlerhakan/poiji/issues',
               }
             ],
           },
