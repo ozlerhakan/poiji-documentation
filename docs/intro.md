@@ -28,6 +28,18 @@ dependencies {
 }
 ```
 
+## Transitive Dependencies
+
+The following dependencies come bundled transitively:
+
+```txt
+org.apache.poi:poi:5.1.0
+org.apache.poi:poi-ooxml:5.1.0
+org.apache.poi:poi-ooxml-lite:5.1.0
+```
+
+## Notes
+
 :::info Apache Poi Version
 
 Poiji uses Apache Poi 5.1.0.

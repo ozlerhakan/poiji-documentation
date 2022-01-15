@@ -17,14 +17,14 @@ const FeatureList = [
     title: 'Apache Poi',
     imageUrl: require("../../static/img/power.jpg").default,
     description: (
-        <p>Poiji uses Apache Poi (the Java API for Microsoft Documents) under the hood</p>
+        <p>Poiji uses Apache Poi (the Java API for Microsoft Documents) under the hood.</p>
     ),
   },
   {
     title: 'Customizable',
     imageUrl: require("../../static/img/customizable.jpg").default,
     description: (
-        <>Poiji options/configurations can be customized using `PoijiOptionsBuilder` easily.</>
+        <>Poiji options/configurations can be customized using <b>PoijiOptionsBuilder</b> easily.</>
     ),
   }, 
 ];

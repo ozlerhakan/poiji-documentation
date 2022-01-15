@@ -8,14 +8,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Welcome to Poiji Documentation',
   tagline: 'A powerful library converting excel rows to a list of Java objects based on Apache POI',
-  url: 'https://github.com/ozlerhakan/poiji',
+  url: 'https://ozlerhakan.github.io/',
   favicon: 'https://github.githubassets.com/favicons/favicon-dark.png',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
+  baseUrl: '/poiji/',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  organizationName: 'com.github.ozlerhakan',
+  organizationName: 'ozlerhakan.github.io',
   projectName: 'poiji', 
+  deploymentBranch: 'docs',
   staticDirectories: ['public', 'static'], 
+  trailingSlash: false,
   presets: [
     [
       'classic',
@@ -23,12 +25,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/ozlerhakan/poiji-documentation',
+          editUrl: 'https://github.com/ozlerhakan/poiji-documentation/edit/main',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/ozlerhakan/poiji-documentation',
+            'https://github.com/ozlerhakan/poiji-documentation/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
